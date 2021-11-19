@@ -1,0 +1,88 @@
+#Modules
+import numpy as np
+import pandas as pd
+import random
+#Starting of code
+lst=['s','g','w']
+chances=5
+no_of_chances=0
+human_score=0
+computer_score=0
+print("\t\t\tSnake Water Gun Game \n\n")
+print("Choose s for the snake\nChoose g for the gun:\nChoose w for the water\n")
+while no_of_chances<chances:
+    _input=input("Sanke,Water and Gun: ")
+    _random=random.choice(lst)
+    
+    if _input==_random:
+        print("Tie both choose same: ",_input)
+        
+    elif _input=="s" and _random=="g":
+        computer_score+=1
+        print(f"You chooses {_input} and computer choose {_random}")
+        print("Computer wins:")
+        print(f"Computer score {computer_score}:")
+        print(f"Your score: {human_score}")
+              
+    elif _input=="s" and _random=="w":
+              human_score+=1
+              print(f"You chooses {_input} and Computer chooses {_random}")
+              print("You win this round:")
+              print(f"Computer score: {computer_score}")
+              print(f"Your score: {human_score}")
+                    
+    elif _input=="w" and _random=="g":
+                    human_score+=1
+                    print(f"You chooses {_input} and computer choose {_random}")
+                    print("You win:)")
+                    print(f"Computer score {computer_score}:")
+                    print(f"Your score: {human_score}")
+              
+    elif _input=="w" and _random=="s":
+                    computer_score+=1
+                    print(f"You chooses {_input} and computer choose {_random}")
+                    print("Computer wins")
+                    print(f"Computer score {computer_score}:")
+                    print(f"Your score: {human_score}")
+                          
+    elif _input=="g" and _random=="w":
+                    computer_score+=1
+                    print(f"You chooses {_input} and computer choose {_random}")
+                    print("Computer wins:")
+                    print(f"Computer score {computer_score}:")
+                    print(f"Your score: {human_score}")
+                          
+    elif _input=="g" and _random=="s":
+              human_score+=1
+              print(f"You chooses {_input} and Computer chooses {_random}")
+              print("You win this round:")
+              print(f"Computer score: {computer_score}")
+              print(f"Your score: {human_score}")
+                
+    else:
+                    print("You have input wrong")
+                    
+    no_of_chances+=1
+    print(f"{chances-no_of_chances} is left from {chances}\n")
+          
+print("Game Over")
+          
+if human_score==computer_score:
+          print("Tied :| Well Played\n")
+          print(f"Your score: {human_score}")
+          print(f"Computer score: {computer_score}")
+    
+elif human_score>computer_score:
+          print("Congratuals:) Well Played\nYou Won")
+          print(f"Your score: {human_score}")
+          print(f"Computer score: {computer_score}")
+else:
+          print("Sorry:( Better Luck Next time\nYou Lost :( ")
+          print(f"Your score: {human_score}")
+          print(f"Computer score: {computer_score}")
+                
+                
+         
+              
+                    
+                    
