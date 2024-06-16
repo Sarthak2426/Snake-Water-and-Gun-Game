@@ -22,34 +22,10 @@ Game Over: After all chances are used, the game will display the final scores an
 Example Gameplay
 plaintext
 Copy code
-			Snake Water Gun Game
 
-Choose s for the snake
-Choose g for the gun:
-Choose w for the water
 
-Snake, Water, and Gun: s
-You chose s and the computer chose w
-You win this round:
-Computer score: 0
-Your score: 1
-4 chances left from 5
 
-Snake, Water, and Gun: w
-You chose w and the computer chose g
-You win:)
-Computer score: 0
-Your score: 2
-3 chances left from 5
-
-...
-
-Game Over
-Congratulations:) Well Played
-You Won
-Your score: 3
-Computer score: 2
-Installation
+#Installation
 No special installation is required. Just make sure you have Python installed. The game uses basic Python libraries such as random for generating computer choices.
 
 Libraries Used
