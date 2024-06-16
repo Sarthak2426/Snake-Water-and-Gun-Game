@@ -23,7 +23,7 @@ Game Over: After all chances are used, the game will display the final scores an
 
 
 # Installation
-No special installation is required. Just make sure you have Python installed. The game uses basic Python libraries such as random for generating computer choices.
+The game uses basic Python libraries such as random for generating computer choices.
 
 Libraries Used
 NumPy (not utilized in the current version but imported)
