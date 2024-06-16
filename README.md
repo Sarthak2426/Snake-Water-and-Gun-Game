@@ -19,13 +19,10 @@ The computer will randomly choose one of the three options.
 The winner for each round will be displayed along with the scores.
 The game will continue for a predefined number of chances (default is 5).
 Game Over: After all chances are used, the game will display the final scores and declare the winner.
-Example Gameplay
-plaintext
-Copy code
 
 
 
-#Installation
+# Installation
 No special installation is required. Just make sure you have Python installed. The game uses basic Python libraries such as random for generating computer choices.
 
 Libraries Used
