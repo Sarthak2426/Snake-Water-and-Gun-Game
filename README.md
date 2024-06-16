@@ -28,15 +28,15 @@ Choose s for the snake
 Choose g for the gun:
 Choose w for the water
 
-Snake, Water and Gun: s
-You chose s and computer chose w
+Snake, Water, and Gun: s
+You chose s and the computer chose w
 You win this round:
 Computer score: 0
 Your score: 1
 4 chances left from 5
 
-Snake, Water and Gun: w
-You chose w and computer chose g
+Snake, Water, and Gun: w
+You chose w and the computer chose g
 You win:)
 Computer score: 0
 Your score: 2
@@ -53,6 +53,6 @@ Installation
 No special installation is required. Just make sure you have Python installed. The game uses basic Python libraries such as random for generating computer choices.
 
 Libraries Used
-numpy (not utilized in the current version but imported)
+NumPy (not utilized in the current version but imported)
 pandas (not utilized in the current version but imported)
 random (used for generating random choices for the computer)
