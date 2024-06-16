@@ -26,6 +26,4 @@ Game Over: After all chances are used, the game will display the final scores an
 The game uses basic Python libraries such as random for generating computer choices.
 
 Libraries Used
-NumPy (not utilized in the current version but imported)
-pandas (not utilized in the current version but imported)
 random (used for generating random choices for the computer)
